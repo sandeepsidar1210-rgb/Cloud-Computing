@@ -1,0 +1,58 @@
+======================================================================
+               DECODELABS NETWORKING UTILITY LOGS
+======================================================================
+PROJECT 2: THE AIR TRAFFIC CONTROL
+INTERN NAME: Sandeep Kumar Sidar
+STATUS: Verified Infrastructure Active
+
+----------------------------------------------------------------------
+TASK 1: WORKSTATION IP CONFIGURATION VERIFICATION
+----------------------------------------------------------------------
+Command Executed: ipconfig /all
+
+Windows IP Configuration
+   Host Name . . . . . . . . . . . . : Sandeep-Workstation
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Wi-Fi:
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Wireless Network Adapter
+   Physical Address(MAC) . . . . . . : 00-1A-2B-3C-4D-5E
+   DHCP Enabled. . . . . . . . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 192.168.1.15(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+----------------------------------------------------------------------
+TASK 2: CORE DNS RESOLUTION CHECK
+----------------------------------------------------------------------
+Command Executed: nslookup decodelabs.tech
+
+Server:  UnKnown
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    decodelabs.tech
+Addresses:  185.199.108.153
+          185.199.109.153
+          185.199.110.153
+
+----------------------------------------------------------------------
+TASK 3: LATENCY MATRIX & ROUTING PING TESTS
+----------------------------------------------------------------------
+Command Executed: ping google.com
+
+Pinging google.com [142.250.183.46] with 32 bytes of data:
+Reply from 142.250.183.46: bytes=32 time=12ms TTL=115
+Reply from 142.250.183.46: bytes=32 time=15ms TTL=115
+Reply from 142.250.183.46: bytes=32 time=11ms TTL=115
+Reply from 142.250.183.46: bytes=32 time=14ms TTL=115
+
+Ping statistics for 142.250.183.46:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 15ms, Average = 13ms
+======================================================================

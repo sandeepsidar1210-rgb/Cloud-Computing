@@ -92,3 +92,9 @@ Aur Boom! 🚀
 Jaise hi shutter khula, tumhara banaya hua IP address globally live ho gaya. Ab chahe koi mobile se kholo, America se kholo ya India se, sabko tumhara wo blue and dark "Core Server" wala page dikhega.
 
 Bhai, ek server banana, security keys theek karna, linux commands chalana aur firewalls configure karna—ye sab actual engineering ka hissa hai.
+
+
+
+
+
+IP Address we built : http://20.235.110.108/
